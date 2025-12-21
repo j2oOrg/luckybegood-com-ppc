@@ -7,6 +7,14 @@
   <link rel="icon" href="<?php echo esc_url( home_url('/favicon.ico') ); ?>">
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url( home_url('/apple-touch-icon.png') ); ?>">
   <?php wp_head(); ?>
+  <style>
+    /* Inline tweak: soften the nav background to match the page palette */
+    .nav-rail-q5h8{
+      background:rgba(249,246,241,0.92);
+      border-bottom:1px solid rgba(24,21,18,0.12);
+      box-shadow:0 10px 26px rgba(17,12,6,0.08);
+    }
+  </style>
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
