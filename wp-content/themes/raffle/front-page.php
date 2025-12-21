@@ -11,14 +11,14 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
     <div class="container hero-grid hero-bento">
       <div class="hero-copy">
         <p class="eyebrow">Licensed charitable raffle</p>
-        <h1 class="hero-title">luckybegood Association Foundation 50/50 Raffle</h1>
-        <p class="hero-sub">Licensed charitable raffle operated under AGLC Raffle Licence #662961. Issued by Alberta Gaming, Liquor &amp; Cannabis. Winner receives 50% of ticket sales for this licensed draw.</p>
+        <h1 class="hero-title">Luckybegood Dog Rescue Foundation 50/50 Raffle</h1>
+        <p class="hero-sub">Licensed charitable raffle operated under AGLC Raffle Licence #662991. Issued by Alberta Gaming, Liquor &amp; Cannabis. Winner receives 50% of ticket sales for this licensed draw.</p>
         <div class="hero-prize-stack">
           <span class="hero-prize">$3,780 Current Licensed Draw Amount</span>
           <span class="hero-prize-sub">(50% of ticket sales to date)</span>
         </div>
         <div class="hero-chips">
-          <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
+          <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662991</span>
           <span class="pill"><i class="fa-solid fa-ticket"></i> 995 tickets total</span>
           <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 • 7:00 PM MT</span>
           <span class="pill"><i class="fa-solid fa-bolt"></i> Winner takes 50% of ticket sales</span>
@@ -30,8 +30,8 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <p class="hero-sub" style="font-size:0.95rem; margin-top:0.4rem;">Must be 18+ and physically located in Alberta at time of purchase.</p>
         <div class="hero-plate">
           <p class="plate-title">Licence &amp; operator</p>
-          <p>Operator / Licensee: luckybegood Association Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC).</p>
-          <p>AGLC Raffle Licence #662961 • luckybegood is the campaign/brand name only and is not the operator.</p>
+          <p>Operator / Licensee: Luckybegood Dog Rescue Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC).</p>
+          <p>AGLC Raffle Licence #662991 • luckybegood is the campaign/brand name only and is not the operator.</p>
         </div>
       </div>
 
@@ -67,7 +67,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
             <div class="progress-track">
               <div class="progress-fill" id="countdownProgress"></div>
             </div>
-            <p class="countdown-note">Prize: 50% of ticket sales • Current licensed draw amount $3,780 • AGLC Raffle Licence #662961</p>
+            <p class="countdown-note">Prize: 50% of ticket sales • Current licensed draw amount $3,780 • AGLC Raffle Licence #662991</p>
           </div>
         </div>
 
@@ -116,7 +116,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
           <span class="pill"><i class="fa-solid fa-layer-group"></i> 995 tickets total</span>
           <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 • 7:00 PM MT</span>
         </div>
-        <p class="pitch">One winner receives 50% of ticket sales. Issued by AGLC Raffle Licence #662961.</p>
+        <p class="pitch">One winner receives 50% of ticket sales. Issued by AGLC Raffle Licence #662991.</p>
         <div class="cta-stack">
           <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Get Tickets Now</a>
           <span class="pill accent"><i class="fa-solid fa-clock"></i> Countdown is live</span>
@@ -132,7 +132,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
           <li>Draw date: March 30, 2026 at 7:00 PM MT</li>
           <li>Draw location: Fort Edmonton Park, Edmonton</li>
         </ul>
-        <div class="micro-plate">Operator / Licensee: luckybegood Association Foundation • AGLC Raffle Licence #662961 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only and is not the operator.</div>
+        <div class="micro-plate">Operator / Licensee: Luckybegood Dog Rescue Foundation • AGLC Raffle Licence #662991 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only and is not the operator.</div>
       </article>
 
       <div class="stat-grid">
@@ -210,7 +210,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <article class="package-card prize-info-card">
           <p class="section-eyebrow" style="margin-bottom:0.35rem;">Operator</p>
           <p class="section-sub" style="margin:0;">Operated by:<br>
-          luckybegood Association Foundation<br>
+          Luckybegood Dog Rescue Foundation<br>
           9111-39 Avenue, Edmonton, AB T6E5Y2<br>
           Licensed charitable organization in Alberta</p>
           <p class="section-sub" style="margin:0.6rem 0 0;">Advertising and marketing services provided by:<br>
@@ -240,14 +240,14 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">Compliance</p>
         <h2 class="section-title">Licensed &amp; regulated</h2>
-        <p class="section-sub">Operator / Licensee: luckybegood Association Foundation • AGLC Raffle Licence #662961 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only.</p>
+        <p class="section-sub">Operator / Licensee: Luckybegood Dog Rescue Foundation • AGLC Raffle Licence #662991 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only.</p>
       </div>
 
       <div class="rg-grid">
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h3>Licence &amp; limits</h3>
-          <p>Operator / Licensee: luckybegood Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 each • Draw: Mar 30, 2026 • One $3,780 winner.</p>
+          <p>Operator / Licensee: Luckybegood Dog Rescue Foundation • AGLC Raffle Licence #662991 • 995 tickets • $10 each • Draw: Mar 30, 2026 • One $3,780 winner.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">
@@ -297,7 +297,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
 <div class="sticky-ribbon">
   <div class="item"><i class="fa-solid fa-circle-exclamation"></i> 18+</div>
   <div class="item"><i class="fa-solid fa-shield"></i> Responsible Gaming</div>
-  <div class="item"><i class="fa-solid fa-ticket"></i> AGLC Licence #662961</div>
+  <div class="item"><i class="fa-solid fa-ticket"></i> AGLC Licence #662991</div>
   <div class="item"><i class="fa-solid fa-bolt"></i> Fast Checkout</div>
 </div>
 
@@ -321,7 +321,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
   <div class="container">
     <div class="badge"><span class="age-number">18+</span></div>
     <div class="badge"><i class="fa-solid fa-shield-check"></i> Responsible Gaming</div>
-    <div class="badge"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</div>
+    <div class="badge"><i class="fa-solid fa-certificate"></i> AGLC Licence #662991</div>
   </div>
 </div>
 

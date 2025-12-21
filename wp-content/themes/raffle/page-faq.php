@@ -97,14 +97,14 @@ get_header();
     <div class="faq-shell">
       <p class="faq-kicker">Need answers?</p>
       <h1 class="faq-title">Frequently Asked Questions</h1>
-      <p class="faq-lead">Clear, licensed information about the luckybegood Association Foundation 50/50 raffle.</p>
+      <p class="faq-lead">Clear, licensed information about the Luckybegood Dog Rescue Foundation 50/50 raffle.</p>
       <div class="faq-pill-row">
-        <span class="faq-pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
+        <span class="faq-pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662991</span>
         <span class="faq-pill"><i class="fa-solid fa-ticket"></i> 995 tickets • $10 each</span>
         <span class="faq-pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 • 7:00 PM MT</span>
         <span class="faq-pill"><i class="fa-solid fa-location-dot"></i> Fort Edmonton Park, Edmonton</span>
       </div>
-      <p class="faq-lead">Operator / Licensee: luckybegood Association Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only and is not the operator.</p>
+      <p class="faq-lead">Operator / Licensee: Luckybegood Dog Rescue Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only and is not the operator.</p>
     </div>
   </section>
 
@@ -137,7 +137,7 @@ get_header();
     <div class="faq-shell faq-grid">
       <article class="faq-card">
         <h3>What do tickets cost and how many are printed?</h3>
-        <p>Each ticket is $10 and only 995 tickets are issued under AGLC Licence #662961. The prize equals 50% of total ticket sales.</p>
+        <p>Each ticket is $10 and only 995 tickets are issued under AGLC Licence #662991. The prize equals 50% of total ticket sales.</p>
       </article>
 
       <article class="faq-card">
@@ -182,7 +182,7 @@ get_header();
 
       <article class="faq-card">
         <h3>Who operates this raffle?</h3>
-        <p>Operator / Licensee: luckybegood Association Foundation • Authority: AGLC. luckybegood is the campaign/brand name only and not the operator.</p>
+        <p>Operator / Licensee: Luckybegood Dog Rescue Foundation • Authority: AGLC. luckybegood is the campaign/brand name only and not the operator.</p>
       </article>
 
       <article class="faq-card">
@@ -193,7 +193,7 @@ get_header();
   </section>
 
   <section class="faq-shell faq-note">
-    <p><strong>Reminder:</strong> This licensed raffle is operated by the luckybegood Association Foundation under AGLC Raffle Licence #662961. Must be 18+ and located in Alberta to purchase.</p>
+    <p><strong>Reminder:</strong> This licensed raffle is operated by the Luckybegood Dog Rescue Foundation under AGLC Raffle Licence #662991. Must be 18+ and located in Alberta to purchase.</p>
   </section>
 </main>
 
