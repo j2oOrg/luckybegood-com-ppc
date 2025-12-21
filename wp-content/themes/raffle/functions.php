@@ -44,12 +44,14 @@ add_action('wp_enqueue_scripts', function () {
     );
 
     if (is_front_page()) {
-        wp_enqueue_style(
-            'luckybegood-home',
-            get_theme_file_uri('/assets/css/front-page.css'),
-            ['luckybegood-site'],
-            $theme_version
-        );
+        $front_page_css_path = get_theme_file_path('/assets/css/front-page.css');
+        $front_page_css = is_readable($front_page_css_path) ? file_get_contents($front_page_css_path) : '';
+
+        if ($front_page_css) {
+            wp_register_style('luckybegood-home', false, ['luckybegood-site'], $theme_version);
+            wp_enqueue_style('luckybegood-home');
+            wp_add_inline_style('luckybegood-home', $front_page_css);
+        }
     }
 
     wp_enqueue_script(
