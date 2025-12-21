@@ -86,7 +86,7 @@ get_header();
     <div class="rules-shell">
       <p class="rules-kicker">Official Rules</p>
       <h1 class="rules-title">Rules &amp; Regulations</h1>
-      <p class="rules-lead">Official terms for the Luckybegood Dog Rescue Foundation 50/50 raffle. Participation is restricted to individuals 18+ who are physically located in Alberta at the time of purchase.</p>
+      <p class="rules-lead">These are the official terms for the Luckybegood Dog Rescue Foundation 50/50 raffle. Participation is restricted to individuals 18+ who are physically located in Alberta at the time of purchase.</p>
       <div class="rules-pills">
         <span class="rules-pill accent"><i class="fa-solid fa-certificate"></i> AGLC Raffle Licence #662991</span>
         <span class="rules-pill"><i class="fa-solid fa-ticket"></i> 995 tickets • $10 each</span>
@@ -124,7 +124,7 @@ get_header();
     <div class="rules-grid">
       <article class="rule-card">
         <h3>Rules of play</h3>
-        <p>This raffle is conducted under AGLC Raffle Licence #662991 and follows all applicable Alberta regulations.</p>
+        <p>This raffle runs under AGLC Raffle Licence #662991 and follows all applicable Alberta regulations.</p>
       </article>
 
       <article class="rule-card">
@@ -168,8 +168,8 @@ get_header();
       </article>
 
       <article class="rule-card">
-        <h3>Responsible play</h3>
-        <p>Play within your means. If you need support, contact <a href="tel:18663322322" class="link-accent-m8q5">1-866-332-2322</a> (Alberta Health Services Addiction Helpline) or visit our Responsible Play resources.</p>
+        <h3>Licensing &amp; participation rules</h3>
+        <p>Participants must be 18+ and physically located in Alberta at purchase. Draw conducted under AGLC licence #662991. Support resources are available if you need help or guidance.</p>
       </article>
 
       <article class="rule-card">
@@ -190,7 +190,7 @@ get_header();
     </div>
 
     <div class="rules-callout">
-      <p><strong>Reminder:</strong> Operator / Licensee: Luckybegood Dog Rescue Foundation • AGLC Raffle Licence #662991 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only and is not the operator.</p>
+      <p><strong>Reminder:</strong> Operated by Luckybegood Dog Rescue Foundation under AGLC Raffle Licence #662991. AGLC regulates the draw. “luckybegood” is the campaign name only, not the operator.</p>
     </div>
   </section>
 </main>

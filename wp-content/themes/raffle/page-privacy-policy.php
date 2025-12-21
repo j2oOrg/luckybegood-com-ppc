@@ -21,7 +21,7 @@ get_header();
   <section class="policy-body-q3d4">
     <div class="shell-wrap-z4m2 policy-grid-h5s8">
       <article class="policy-card-n4c1">
-        <p class="section-sub-p0c6">The Luckybegood Dog Rescue Foundation ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you participate in the luckybegood Raffle (AGLC Raffle Licence #662991). luckybegood is the campaign/brand name only and is not the operator.</p>
+        <p class="section-sub-p0c6">The Luckybegood Dog Rescue Foundation ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you participate in the luckybegood Raffle (AGLC Raffle Licence #662991). “luckybegood” is the campaign brand name only and is not the operator.</p>
 
         <h2>1. Information We Collect</h2>
         <h3>Personal Information</h3>

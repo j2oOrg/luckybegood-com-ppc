@@ -104,7 +104,7 @@ get_header();
         <span class="faq-pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 • 7:00 PM MT</span>
         <span class="faq-pill"><i class="fa-solid fa-location-dot"></i> Fort Edmonton Park, Edmonton</span>
       </div>
-      <p class="faq-lead">Operator / Licensee: Luckybegood Dog Rescue Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only and is not the operator.</p>
+      <p class="faq-lead">Operated by Luckybegood Dog Rescue Foundation under AGLC oversight; “luckybegood” is the campaign name only.</p>
     </div>
   </section>
 
@@ -177,12 +177,12 @@ get_header();
 
       <article class="faq-card">
         <h3>Where do proceeds go?</h3>
-        <p>Proceeds support conservation-focused initiatives inspired by programs like the Pheasant Release Program.</p>
+        <p>Proceeds support dog rescue efforts — veterinary care, fostering, transport, and adoption support for dogs in need.</p>
       </article>
 
       <article class="faq-card">
         <h3>Who operates this raffle?</h3>
-        <p>Operator / Licensee: Luckybegood Dog Rescue Foundation • Authority: AGLC. luckybegood is the campaign/brand name only and not the operator.</p>
+        <p>Operated by Luckybegood Dog Rescue Foundation under AGLC regulation. “luckybegood” is the campaign brand, not the operator.</p>
       </article>
 
       <article class="faq-card">
@@ -193,7 +193,7 @@ get_header();
   </section>
 
   <section class="faq-shell faq-note">
-    <p><strong>Reminder:</strong> This licensed raffle is operated by the Luckybegood Dog Rescue Foundation under AGLC Raffle Licence #662991. Must be 18+ and located in Alberta to purchase.</p>
+    <p><strong>Reminder:</strong> Operated by Luckybegood Dog Rescue Foundation under AGLC Raffle Licence #662991. Must be 18+ and located in Alberta to purchase.</p>
   </section>
 </main>
 

@@ -12,26 +12,26 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="hero-copy">
         <p class="eyebrow">Licensed charitable raffle</p>
         <h1 class="hero-title">Luckybegood Dog Rescue Foundation 50/50 Raffle</h1>
-        <p class="hero-sub">Licensed charitable raffle operated under AGLC Raffle Licence #662991. Issued by Alberta Gaming, Liquor &amp; Cannabis. Winner receives 50% of ticket sales for this licensed draw.</p>
+        <p class="hero-sub">Licensed charitable raffle. Winner receives 50% of total ticket sales for this draw.</p>
         <div class="hero-prize-stack">
-          <span class="hero-prize">$3,780 Current Licensed Draw Amount</span>
-          <span class="hero-prize-sub">(50% of ticket sales to date)</span>
+          <span class="hero-prize">$3,780 Current Licensed Prize Pool</span>
+          <span class="hero-prize-sub">(Prize amount equals 50% of ticket sales to date)</span>
         </div>
         <div class="hero-chips">
           <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662991</span>
-          <span class="pill"><i class="fa-solid fa-ticket"></i> 995 tickets total</span>
+          <span class="pill"><i class="fa-solid fa-ticket"></i> 995 entries total</span>
           <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 • 7:00 PM MT</span>
           <span class="pill"><i class="fa-solid fa-bolt"></i> Winner takes 50% of ticket sales</span>
         </div>
         <div class="hero-cta">
-          <a href="#" class="btn primary" data-signup-btn>Join the draw</a>
+          <a href="#" class="btn primary" data-signup-btn>Enter Licensed Draw</a>
           <a href="#how" class="btn ghost">How it works</a>
         </div>
         <p class="hero-sub" style="font-size:0.95rem; margin-top:0.4rem;">Must be 18+ and physically located in Alberta at time of purchase.</p>
         <div class="hero-plate">
           <p class="plate-title">Licence &amp; operator</p>
-          <p>Operator / Licensee: Luckybegood Dog Rescue Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC).</p>
-          <p>AGLC Raffle Licence #662991 • luckybegood is the campaign/brand name only and is not the operator.</p>
+          <p>Operated by Luckybegood Dog Rescue Foundation under AGLC oversight.</p>
+          <p>AGLC Raffle Licence #662991 • “luckybegood” is our campaign name, not the operator.</p>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
             <p class="countdown-date">March 30, 2026 • 7:00 PM MT</p>
             <div class="countdown-tags">
               <span class="pill accent"><i class="fa-solid fa-location-dot"></i> Fort Edmonton Park</span>
-              <span class="pill"><i class="fa-solid fa-ticket"></i> $10 each • 995 total</span>
+              <span class="pill"><i class="fa-solid fa-ticket"></i> $10 each • 995 entries</span>
             </div>
           </div>
           <div class="countdown-dials" id="countdown">
@@ -74,8 +74,35 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <div class="hero-visual hero-visual-card">
           <div class="halo"></div>
           <img src="<?php echo esc_url( $hero_image ); ?>" alt="luckybegood Raffle hero">
-          <span class="hero-label"><i class="fa-solid fa-circle-info"></i> Real cash prizes</span>
+          <span class="hero-label"><i class="fa-solid fa-circle-info"></i> Licensed prize pool</span>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="packages" id="impact">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">Our mission</p>
+        <h2 class="section-title">Entries that fund dog rescue and care</h2>
+        <p class="section-sub">Every purchase fuels vet care, fostering, transport, and adoption so more dogs find safe homes.</p>
+      </div>
+      <div class="package-grid">
+        <article class="package-card">
+          <p class="package-note">
+            Each entry helps cover medical treatment, foster supplies, and transport for rescued dogs. Together we give every dog a better chance at a home.
+          </p>
+          <a href="<?php echo esc_url( home_url('/faq') ); ?>" class="btn primary">Learn how funds are used</a>
+        </article>
+        <article class="package-card prize-info-card">
+          <p class="section-eyebrow" style="margin-bottom:0.35rem;">Operator</p>
+          <p class="section-sub" style="margin:0;">Operated by:<br>
+          Luckybegood Dog Rescue Foundation<br>
+          9111-39 Avenue, Edmonton, AB T6E5Y2<br>
+          Licensed charitable organization in Alberta</p>
+          <p class="section-sub" style="margin:0.6rem 0 0;">Advertising and marketing services provided by:<br>
+          DigiBox Ltd (authorized agent)</p>
+        </article>
       </div>
     </div>
   </section>
@@ -83,17 +110,17 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
   <section class="fun-strip" id="packages">
     <div class="container fun-grid">
       <article class="fun-card">
-        <p class="fun-label">Ticket price</p>
+        <p class="fun-label">Entry price</p>
         <p class="fun-value">$10</p>
         <p class="fun-hint">First-come, first-served</p>
       </article>
       <article class="fun-card">
-        <p class="fun-label">Ticket limit</p>
+        <p class="fun-label">Entry limit</p>
         <p class="fun-value">995</p>
         <p class="fun-hint">Maximum odds: 1 in 995</p>
       </article>
       <article class="fun-card">
-        <p class="fun-label">Grand prize</p>
+        <p class="fun-label">Licensed prize pool</p>
         <p class="fun-value">50% of sales</p>
         <p class="fun-hint">Current amount: $3,780</p>
       </article>
@@ -108,17 +135,17 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
   <section class="prize-spotlight" id="prizes">
     <div class="container prize-grid">
       <article class="prize-card">
-        <p class="section-eyebrow">Grand prize</p>
-        <h2 class="section-title">Limited tickets. One $3,780 (and growing) licensed prize.</h2>
-        <p class="section-sub">A vivid, licensed raffle experience — built to stand out and easy to enter.</p>
+        <p class="section-eyebrow">Licensed prize pool</p>
+        <h2 class="section-title">Limited entries. One licensed prize pool (50% of ticket revenue).</h2>
+        <p class="section-sub">A licensed 50/50 draw with a clear, regulated prize pool.</p>
         <div class="prize-meta">
-          <span class="pill accent"><i class="fa-solid fa-ticket"></i> $10 per ticket</span>
-          <span class="pill"><i class="fa-solid fa-layer-group"></i> 995 tickets total</span>
+          <span class="pill accent"><i class="fa-solid fa-ticket"></i> $10 per entry</span>
+          <span class="pill"><i class="fa-solid fa-layer-group"></i> 995 entries total</span>
           <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 • 7:00 PM MT</span>
         </div>
-        <p class="pitch">One winner receives 50% of ticket sales. Issued by AGLC Raffle Licence #662991.</p>
+        <p class="pitch">One winner receives 50% of total ticket sales for this draw.</p>
         <div class="cta-stack">
-          <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Get Tickets Now</a>
+          <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Enter Licensed Draw</a>
           <span class="pill accent"><i class="fa-solid fa-clock"></i> Countdown is live</span>
         </div>
       </article>
@@ -126,30 +153,30 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <article class="prize-info-card">
         <h3>Ticket details (as licensed)</h3>
         <ul class="info-list">
-          <li>Ticket price: $10.00 per ticket</li>
-          <li>Total tickets available: 995</li>
-          <li>Prize: 50% of total ticket sales</li>
+          <li>Entry price: $10.00 each</li>
+          <li>Total entries available: 995</li>
+          <li>Prize: 50% of total entry revenue</li>
           <li>Draw date: March 30, 2026 at 7:00 PM MT</li>
           <li>Draw location: Fort Edmonton Park, Edmonton</li>
         </ul>
-        <div class="micro-plate">Operator / Licensee: Luckybegood Dog Rescue Foundation • AGLC Raffle Licence #662991 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only and is not the operator.</div>
+        <div class="micro-plate">Operated by Luckybegood Dog Rescue Foundation under AGLC Raffle Licence #662991. AGLC is the regulator; “luckybegood” is the campaign brand only.</div>
       </article>
 
       <div class="stat-grid">
         <div class="stat-box">
-          <p class="label">Ticket pool</p>
+          <p class="label">Entry pool</p>
           <p class="num">995</p>
           <p class="hint">Maximum odds: 1 in 995</p>
         </div>
         <div class="stat-box">
-          <p class="label">Price per ticket</p>
+          <p class="label">Price per entry</p>
           <p class="num">$10</p>
           <p class="hint">First-come, first-served</p>
         </div>
         <div class="stat-box">
           <p class="label">Winner count</p>
           <p class="num">1</p>
-          <p class="hint">One grand prize package</p>
+          <p class="hint">One licensed prize pool (50% of sales)</p>
         </div>
         <div class="stat-box">
           <p class="label">Draw date</p>
@@ -165,14 +192,14 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">How it works</p>
         <h2 class="section-title">A playful, simple raffle flow</h2>
-        <p class="section-sub">Purchase, wait for the draw, and support conservation — all under the same AGLC licence.</p>
+        <p class="section-sub">Purchase, wait for the draw, and support dog rescue and care — all under the same AGLC licence.</p>
       </div>
 
       <div class="package-grid">
         <article class="package-card">
-          <div class="package-name">1. Purchase tickets</div>
-          <p class="package-note">Only 995 tickets available, $10 each.</p>
-          <p class="package-note">Secure your spot before the clock hits zero.</p>
+          <div class="package-name">1. Enter the licensed draw</div>
+          <p class="package-note">Only 995 entries available at $10 each.</p>
+          <p class="package-note">Secure your entry before the clock hits zero.</p>
         </article>
         <article class="package-card">
           <div class="package-name">2. Wait for draw</div>
@@ -180,41 +207,14 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
           <p class="package-note">Draw location: Fort Edmonton Park, Edmonton.</p>
         </article>
         <article class="package-card">
-          <div class="package-name">3. Win the prize</div>
-          <p class="package-note">One winner receives the $3,780 (and growing) prize pool.</p>
-          <p class="package-note">Payout equals 50% of total ticket sales.</p>
+          <div class="package-name">3. Prize payout</div>
+          <p class="package-note">One winner receives 50% of total ticket sales (licensed prize pool).</p>
+          <p class="package-note">Current licensed amount: $3,780 and grows with sales.</p>
         </article>
         <article class="package-card">
-          <div class="package-name">4. Support conservation</div>
-          <p class="package-note">Proceeds align with wildlife and outdoor heritage causes.</p>
-          <p class="package-note">Help keep ecosystems healthy and thriving.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="packages" id="impact">
-    <div class="container">
-      <div class="section-head">
-        <p class="section-eyebrow">Your impact</p>
-        <h2 class="section-title">Tickets that support conservation</h2>
-        <p class="section-sub">Every purchase echoes the raffle spirit—backing wildlife and outdoor heritage.</p>
-      </div>
-      <div class="package-grid">
-        <article class="package-card">
-          <p class="package-note">
-            Every ticket helps fund wildlife and habitat initiatives similar to the Pheasant Release Program. Together we keep ecosystems healthy and outdoor experiences thriving.
-          </p>
-          <a href="<?php echo esc_url( home_url('/faq') ); ?>" class="btn primary">Ask about the mission</a>
-        </article>
-        <article class="package-card prize-info-card">
-          <p class="section-eyebrow" style="margin-bottom:0.35rem;">Operator</p>
-          <p class="section-sub" style="margin:0;">Operated by:<br>
-          Luckybegood Dog Rescue Foundation<br>
-          9111-39 Avenue, Edmonton, AB T6E5Y2<br>
-          Licensed charitable organization in Alberta</p>
-          <p class="section-sub" style="margin:0.6rem 0 0;">Advertising and marketing services provided by:<br>
-          DigiBox Ltd (authorized agent)</p>
+          <div class="package-name">4. Support dog rescue</div>
+          <p class="package-note">Proceeds fund veterinary care, fostering, and rehoming for dogs in need.</p>
+          <p class="package-note">Help more dogs find safe homes.</p>
         </article>
       </div>
     </div>
@@ -240,26 +240,26 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">Compliance</p>
         <h2 class="section-title">Licensed &amp; regulated</h2>
-        <p class="section-sub">Operator / Licensee: Luckybegood Dog Rescue Foundation • AGLC Raffle Licence #662991 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only.</p>
+        <p class="section-sub">Run by Luckybegood Dog Rescue Foundation under AGLC Raffle Licence #662991. AGLC regulates the draw; “luckybegood” is the campaign brand only.</p>
       </div>
 
       <div class="rg-grid">
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h3>Licence &amp; limits</h3>
-          <p>Operator / Licensee: Luckybegood Dog Rescue Foundation • AGLC Raffle Licence #662991 • 995 tickets • $10 each • Draw: Mar 30, 2026 • One $3,780 winner.</p>
+          <p>Operated by Luckybegood Dog Rescue Foundation • AGLC Raffle Licence #662991 • 995 entries • $10 each • Draw: Mar 30, 2026 • Licensed prize pool: 50% of sales.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-heart-pulse"></i></div>
-          <h3>Participate responsibly</h3>
-          <p>18+ only. Set limits, keep raffle participation balanced, and take breaks. We promote balance over impulse.</p>
-          <a class="rg-cta" href="https://www.albertahealthservices.ca" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Responsible participation resources</a>
+          <h3>Licensing &amp; eligibility</h3>
+          <p>18+ and physically located in Alberta at time of purchase. Draw conducted under AGLC Raffle Licence #662991.</p>
+          <a class="rg-cta" href="https://www.albertahealthservices.ca" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Participation resources</a>
         </div>
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-hands-holding-child"></i></div>
-          <h3>Need support?</h3>
-          <p>Helpline: <a href="tel:18663322322" class="link-accent">1-866-332-2322</a> • Alberta Health Services Addiction Helpline.</p>
+          <h3>Support resources</h3>
+          <p>Helpline: <a href="tel:18663322322" class="link-accent">1-866-332-2322</a> (Alberta Health Services Addiction Helpline).</p>
           <ul class="res-links">
             <li><a href="https://gamesenseab.ca/" target="_blank" rel="noopener noreferrer">GameSense Alberta</a></li>
             <li><a href="https://www.gambleaware.org/" target="_blank" rel="noopener noreferrer">BeGambleAware</a></li>
@@ -275,7 +275,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">Contact</p>
         <h2 class="section-title">We’re here to help</h2>
-        <p class="section-sub">Questions about tickets, rules, or responsible gaming? Reach out anytime.</p>
+        <p class="section-sub">Questions about entries, rules, or participation? Reach out anytime.</p>
       </div>
       <div class="contact-grid">
         <div class="contact-card">
@@ -296,7 +296,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
 
 <div class="sticky-ribbon">
   <div class="item"><i class="fa-solid fa-circle-exclamation"></i> 18+</div>
-  <div class="item"><i class="fa-solid fa-shield"></i> Responsible Gaming</div>
+  <div class="item"><i class="fa-solid fa-shield"></i> Licensing & Support</div>
   <div class="item"><i class="fa-solid fa-ticket"></i> AGLC Licence #662991</div>
   <div class="item"><i class="fa-solid fa-bolt"></i> Fast Checkout</div>
 </div>
@@ -304,13 +304,13 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
 <div class="luckybegood-modal" id="signupModal" aria-hidden="true">
   <div class="modal-card">
     <button class="modal-close" type="button" data-modal-close aria-label="Close form"><i class="fa-solid fa-xmark"></i></button>
-    <h3>Ticket Purchase Inquiry</h3>
-    <p>Send us a message about buying raffle tickets. We’ll respond with next steps.</p>
+    <h3>Entry Inquiry</h3>
+    <p>Send us a message about entering the licensed draw. We’ll respond with next steps.</p>
     <form id="signupForm" class="modal-form">
       <input type="text" id="signupName" placeholder="Full name" required>
       <input type="email" id="signupEmail" placeholder="Email address" required>
       <input type="tel" id="signupPhone" placeholder="Phone number" required>
-      <textarea id="signupMessage" placeholder="Your message or ticket request" rows="3" required></textarea>
+      <textarea id="signupMessage" placeholder="Your message or entry request" rows="3" required></textarea>
       <button type="submit" class="btn primary">Send message</button>
       <p id="signupStatus" class="modal-status" aria-live="polite"></p>
     </form>
@@ -320,7 +320,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
 <div class="sticky-footer">
   <div class="container">
     <div class="badge"><span class="age-number">18+</span></div>
-    <div class="badge"><i class="fa-solid fa-shield-check"></i> Responsible Gaming</div>
+    <div class="badge"><i class="fa-solid fa-shield-check"></i> Licensing & Support</div>
     <div class="badge"><i class="fa-solid fa-certificate"></i> AGLC Licence #662991</div>
   </div>
 </div>
