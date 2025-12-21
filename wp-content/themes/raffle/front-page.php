@@ -8,97 +8,153 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
 
 <main>
   <section class="hero" id="home">
-    <div class="container hero-grid">
+    <div class="container hero-grid hero-bento">
       <div class="hero-copy">
         <p class="eyebrow">Licensed charitable raffle</p>
         <h1 class="hero-title">luckybegood Association Foundation 50/50 Raffle</h1>
+        <p class="hero-sub">Licensed charitable raffle operated under AGLC Raffle Licence #662961. Issued by Alberta Gaming, Liquor &amp; Cannabis. Winner receives 50% of ticket sales for this licensed draw.</p>
         <div class="hero-prize-stack">
           <span class="hero-prize">$3,780 Current Licensed Draw Amount</span>
-          <span class="hero-prize-sub">(50% of ticket sales to date, per AGLC Raffle Licence #662961)</span>
+          <span class="hero-prize-sub">(50% of ticket sales to date)</span>
         </div>
-        <p class="hero-sub">Licensed charitable raffle operated under AGLC Raffle Licence #662961. Issued by Alberta Gaming, Liquor &amp; Cannabis.</p>
-        <p class="hero-sub">Winner receives 50% of ticket sales for this licensed draw.</p>
-        <div class="countdown-card">
-          <p class="countdown-title">Draw date: February 25, 2026</p>
-          <div class="countdown" id="countdown">
-            <div class="slot"><span class="value" id="countdownDays">27</span><small>Days</small></div>
-            <div class="slot"><span class="value" id="countdownHours">00</span><small>Hours</small></div>
-            <div class="slot"><span class="value" id="countdownMinutes">00</span><small>Minutes</small></div>
-            <div class="slot"><span class="value" id="countdownSeconds">00</span><small>Seconds</small></div>
-          </div>
+        <div class="hero-chips">
+          <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
+          <span class="pill"><i class="fa-solid fa-ticket"></i> 995 tickets total</span>
+          <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 • 7:00 PM MT</span>
+          <span class="pill"><i class="fa-solid fa-bolt"></i> Winner takes 50% of ticket sales</span>
         </div>
         <div class="hero-cta">
-          <a href="#" class="btn primary" data-signup-btn>Join Now &amp; Start Winning</a>
+          <a href="#" class="btn primary" data-signup-btn>Join the draw</a>
           <a href="#how" class="btn ghost">How it works</a>
         </div>
         <p class="hero-sub" style="font-size:0.95rem; margin-top:0.4rem;">Must be 18+ and physically located in Alberta at time of purchase.</p>
-        <div class="badges">
-          <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662961</span>
-          <span class="pill"><i class="fa-solid fa-ticket"></i> 995 tickets total</span>
-          <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Feb 25, 2026</span>
+        <div class="hero-plate">
+          <p class="plate-title">Licence &amp; operator</p>
+          <p>Operator / Licensee: luckybegood Association Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC).</p>
+          <p>AGLC Raffle Licence #662961 • luckybegood is the campaign/brand name only and is not the operator.</p>
         </div>
-        <p class="hero-sub" style="margin-top:0.8rem;">Operator / Licensee: luckybegood Association Foundation • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only and is not the operator.</p>
       </div>
 
-      <div class="hero-visual">
-        <div class="halo"></div>
-        <img src="<?php echo esc_url( $hero_image ); ?>" alt="luckybegood Raffle hero">
-        <span class="hero-label"><i class="fa-solid fa-circle-info"></i> Real cash prizes</span>
+      <div class="hero-aside">
+        <div class="countdown-bento">
+          <div class="countdown-top">
+            <p class="countdown-kicker">Next licensed draw</p>
+            <p class="countdown-date">March 30, 2026 • 7:00 PM MT</p>
+            <div class="countdown-tags">
+              <span class="pill accent"><i class="fa-solid fa-location-dot"></i> Fort Edmonton Park</span>
+              <span class="pill"><i class="fa-solid fa-ticket"></i> $10 each • 995 total</span>
+            </div>
+          </div>
+          <div class="countdown-dials" id="countdown">
+            <div class="dial">
+              <span class="dial-value" id="countdownDays">27</span>
+              <span class="dial-label">Days</span>
+            </div>
+            <div class="dial">
+              <span class="dial-value" id="countdownHours">00</span>
+              <span class="dial-label">Hours</span>
+            </div>
+            <div class="dial">
+              <span class="dial-value" id="countdownMinutes">00</span>
+              <span class="dial-label">Minutes</span>
+            </div>
+            <div class="dial">
+              <span class="dial-value" id="countdownSeconds">00</span>
+              <span class="dial-label">Seconds</span>
+            </div>
+          </div>
+          <div class="countdown-progress">
+            <div class="progress-track">
+              <div class="progress-fill" id="countdownProgress"></div>
+            </div>
+            <p class="countdown-note">Prize: 50% of ticket sales • Current licensed draw amount $3,780 • AGLC Raffle Licence #662961</p>
+          </div>
+        </div>
+
+        <div class="hero-visual hero-visual-card">
+          <div class="halo"></div>
+          <img src="<?php echo esc_url( $hero_image ); ?>" alt="luckybegood Raffle hero">
+          <span class="hero-label"><i class="fa-solid fa-circle-info"></i> Real cash prizes</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="packages" id="packages">
-    <div class="container">
-      <div class="section-head">
+  <section class="fun-strip" id="packages">
+    <div class="container fun-grid">
+      <article class="fun-card">
+        <p class="fun-label">Ticket price</p>
+        <p class="fun-value">$10</p>
+        <p class="fun-hint">First-come, first-served</p>
+      </article>
+      <article class="fun-card">
+        <p class="fun-label">Ticket limit</p>
+        <p class="fun-value">995</p>
+        <p class="fun-hint">Maximum odds: 1 in 995</p>
+      </article>
+      <article class="fun-card">
+        <p class="fun-label">Grand prize</p>
+        <p class="fun-value">50% of sales</p>
+        <p class="fun-hint">Current amount: $3,780</p>
+      </article>
+      <article class="fun-card">
+        <p class="fun-label">Draw time</p>
+        <p class="fun-value">Mar 30, 7 PM</p>
+        <p class="fun-hint">Fort Edmonton Park</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="prize-spotlight" id="prizes">
+    <div class="container prize-grid">
+      <article class="prize-card">
         <p class="section-eyebrow">Grand prize</p>
-        <h2 class="section-title">Limited tickets. One epic $3,780 prize.</h2>
-        <p class="section-sub">A vivid, licensed raffle experience —built to stand out and easy to enter.</p>
-      </div>
+        <h2 class="section-title">Limited tickets. One $3,780 (and growing) licensed prize.</h2>
+        <p class="section-sub">A vivid, licensed raffle experience — built to stand out and easy to enter.</p>
+        <div class="prize-meta">
+          <span class="pill accent"><i class="fa-solid fa-ticket"></i> $10 per ticket</span>
+          <span class="pill"><i class="fa-solid fa-layer-group"></i> 995 tickets total</span>
+          <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 • 7:00 PM MT</span>
+        </div>
+        <p class="pitch">One winner receives 50% of ticket sales. Issued by AGLC Raffle Licence #662961.</p>
+        <div class="cta-stack">
+          <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Get Tickets Now</a>
+          <span class="pill accent"><i class="fa-solid fa-clock"></i> Countdown is live</span>
+        </div>
+      </article>
 
-      <div class="grand-prize-wrap">
-        <article class="grand-card">
-          <div class="info-block" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:1rem; margin-bottom:1rem;">
-            <p class="section-sub" style="margin:0 0 0.35rem; text-transform:uppercase; letter-spacing:0.08em; font-size:0.9rem;">Ticket Details (As Licensed)</p>
-            <ul style="margin:0; padding-left:1.1rem; color:#dbe2ee; line-height:1.5;">
-              <li>Ticket price: $10.00 per ticket</li>
-              <li>Total tickets available: 995</li>
-              <li>Prize: 50% of total ticket sales</li>
-              <li>Draw date: February 25, 2026</li>
-              <li>Draw location: Fort Edmonton Park, Edmonton</li>
-            </ul>
-          </div>
-          <h3>Prize overview</h3>
-          <p class="value">$3,780 value</p>
-          <p class="sub">Only 995 tickets • $10 each • AGLC Raffle Licence #662961</p>
-          <p class="pitch">Think flagship gear, premium apparel, and field-ready accessories curated for a single lucky winner.</p>
-          <div class="cta-stack">
-            <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Get Tickets Now</a>
-            <span class="pill accent"><i class="fa-solid fa-clock"></i> Draw: Feb 25, 2026</span>
-          </div>
-        </article>
+      <article class="prize-info-card">
+        <h3>Ticket details (as licensed)</h3>
+        <ul class="info-list">
+          <li>Ticket price: $10.00 per ticket</li>
+          <li>Total tickets available: 995</li>
+          <li>Prize: 50% of total ticket sales</li>
+          <li>Draw date: March 30, 2026 at 7:00 PM MT</li>
+          <li>Draw location: Fort Edmonton Park, Edmonton</li>
+        </ul>
+        <div class="micro-plate">Operator / Licensee: luckybegood Association Foundation • AGLC Raffle Licence #662961 • Authority: Alberta Gaming, Liquor &amp; Cannabis (AGLC). luckybegood is the campaign/brand name only and is not the operator.</div>
+      </article>
 
-        <div class="stat-grid">
-          <div class="stat-box">
-            <p class="label">Ticket pool</p>
-            <p class="num">995</p>
-            <p class="hint">Maximum odds: 1 in 995</p>
-          </div>
-          <div class="stat-box">
-            <p class="label">Price per ticket</p>
-            <p class="num">$10</p>
-            <p class="hint">First-come, first-served</p>
-          </div>
-          <div class="stat-box">
-            <p class="label">Winner count</p>
-            <p class="num">1</p>
-            <p class="hint">One grand prize package</p>
-          </div>
-          <div class="stat-box">
-            <p class="label">Draw date</p>
-            <p class="num">Feb 25</p>
-            <p class="hint">2026 • Licensed &amp; posted</p>
-          </div>
+      <div class="stat-grid">
+        <div class="stat-box">
+          <p class="label">Ticket pool</p>
+          <p class="num">995</p>
+          <p class="hint">Maximum odds: 1 in 995</p>
+        </div>
+        <div class="stat-box">
+          <p class="label">Price per ticket</p>
+          <p class="num">$10</p>
+          <p class="hint">First-come, first-served</p>
+        </div>
+        <div class="stat-box">
+          <p class="label">Winner count</p>
+          <p class="num">1</p>
+          <p class="hint">One grand prize package</p>
+        </div>
+        <div class="stat-box">
+          <p class="label">Draw date</p>
+          <p class="num">Mar 30</p>
+          <p class="hint">2026 • Licensed &amp; posted</p>
         </div>
       </div>
     </div>
@@ -108,26 +164,30 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
     <div class="container">
       <div class="section-head">
         <p class="section-eyebrow">How it works</p>
-        <h2 class="section-title">Simple raffle flow</h2>
-        <p class="section-sub">Purchase, wait for the draw, and support conservation.</p>
+        <h2 class="section-title">A playful, simple raffle flow</h2>
+        <p class="section-sub">Purchase, wait for the draw, and support conservation — all under the same AGLC licence.</p>
       </div>
 
       <div class="package-grid">
         <article class="package-card">
           <div class="package-name">1. Purchase tickets</div>
           <p class="package-note">Only 995 tickets available, $10 each.</p>
+          <p class="package-note">Secure your spot before the clock hits zero.</p>
         </article>
         <article class="package-card">
           <div class="package-name">2. Wait for draw</div>
-          <p class="package-note">Official draw on February 25, 2026.</p>
+          <p class="package-note">Official draw on March 30, 2026 at 7:00 PM MT.</p>
+          <p class="package-note">Draw location: Fort Edmonton Park, Edmonton.</p>
         </article>
         <article class="package-card">
           <div class="package-name">3. Win the prize</div>
-          <p class="package-note">One winner receives the $3,780 package.</p>
+          <p class="package-note">One winner receives the $3,780 (and growing) prize pool.</p>
+          <p class="package-note">Payout equals 50% of total ticket sales.</p>
         </article>
         <article class="package-card">
           <div class="package-name">4. Support conservation</div>
           <p class="package-note">Proceeds align with wildlife and outdoor heritage causes.</p>
+          <p class="package-note">Help keep ecosystems healthy and thriving.</p>
         </article>
       </div>
     </div>
@@ -138,7 +198,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">Your impact</p>
         <h2 class="section-title">Tickets that support conservation</h2>
-        <p class="section-sub">Every purchase echoes theraffle spirit—backing wildlife and outdoor heritage.</p>
+        <p class="section-sub">Every purchase echoes the raffle spirit—backing wildlife and outdoor heritage.</p>
       </div>
       <div class="package-grid">
         <article class="package-card">
@@ -147,7 +207,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
           </p>
           <a href="<?php echo esc_url( home_url('/faq') ); ?>" class="btn primary">Ask about the mission</a>
         </article>
-        <article class="package-card" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12);">
+        <article class="package-card prize-info-card">
           <p class="section-eyebrow" style="margin-bottom:0.35rem;">Operator</p>
           <p class="section-sub" style="margin:0;">Operated by:<br>
           luckybegood Association Foundation<br>
@@ -165,7 +225,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       <div class="section-head">
         <p class="section-eyebrow">Winners</p>
         <h2 class="section-title">Winners announced after the draw</h2>
-        <p class="section-sub">Check back after February 25, 2026 for the official winner announcement.</p>
+        <p class="section-sub">Check back after March 30, 2026 for the official winner announcement.</p>
       </div>
       <div class="package-grid">
         <article class="package-card">
@@ -187,7 +247,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h3>Licence &amp; limits</h3>
-          <p>Operator / Licensee: luckybegood Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 each • Draw: Feb 25, 2026 • One $3,780 winner.</p>
+          <p>Operator / Licensee: luckybegood Association Foundation • AGLC Raffle Licence #662961 • 995 tickets • $10 each • Draw: Mar 30, 2026 • One $3,780 winner.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">

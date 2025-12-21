@@ -113,8 +113,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const hoursEl = document.getElementById("countdownHours");
   const minutesEl = document.getElementById("countdownMinutes");
   const secondsEl = document.getElementById("countdownSeconds");
+  const progressEl = document.getElementById("countdownProgress");
   if (daysEl && hoursEl && minutesEl && secondsEl) {
-    const target = new Date("February 25, 2026 00:00:00").getTime();
+    const target = new Date("March 30, 2026 19:00:00").getTime();
+    const windowMs = 45 * 24 * 60 * 60 * 1000; // visual progress window
+    const start = target - windowMs;
     const updateCountdown = () => {
       const now = Date.now();
       const diff = Math.max(target - now, 0);
@@ -126,6 +129,10 @@ document.addEventListener("DOMContentLoaded", () => {
       hoursEl.textContent = String(hours).padStart(2, "0");
       minutesEl.textContent = String(minutes).padStart(2, "0");
       secondsEl.textContent = String(seconds).padStart(2, "0");
+      if (progressEl && target > start) {
+        const pct = Math.min(100, Math.max(0, ((now - start) / (target - start)) * 100));
+        progressEl.style.width = `${pct.toFixed(1)}%`;
+      }
     };
     updateCountdown();
     setInterval(updateCountdown, 1000);
