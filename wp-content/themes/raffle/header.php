@@ -3,7 +3,21 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="luckybegood — Licensed raffle with cash prizes, responsible play, and clear rules.">
+  <?php
+    $meta_title = 'luckybegood 50/50 Raffle — Alberta charitable draw';
+    $meta_description = 'Licensed Alberta 50/50 raffle operated by luckybegood Association Foundation — 995 tickets at $10 each • Draw Mar 30, 2026 at 7:00 PM MT • Winner receives 50% of ticket sales.';
+    $meta_image = get_theme_file_uri('/assets/images/img.png');
+  ?>
+  <meta name="description" content="<?php echo esc_attr( $meta_description ); ?>">
+  <meta property="og:title" content="<?php echo esc_attr( $meta_title ); ?>">
+  <meta property="og:description" content="<?php echo esc_attr( $meta_description ); ?>">
+  <meta property="og:image" content="<?php echo esc_url( $meta_image ); ?>">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="<?php echo esc_url( home_url('/') ); ?>">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<?php echo esc_attr( $meta_title ); ?>">
+  <meta name="twitter:description" content="<?php echo esc_attr( $meta_description ); ?>">
+  <meta name="twitter:image" content="<?php echo esc_url( $meta_image ); ?>">
   <link rel="icon" href="<?php echo esc_url( home_url('/favicon.ico') ); ?>">
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo esc_url( home_url('/apple-touch-icon.png') ); ?>">
   <?php wp_head(); ?>
