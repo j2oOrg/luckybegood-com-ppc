@@ -17,7 +17,7 @@
       <p class="section-sub-p0c6" style="margin:0;">
         Operated by Luckybegood Dog Rescue Foundation<br>
         AGLC Raffle Licence #662991 (regulated by Alberta Gaming, Liquor &amp; Cannabis)<br>
-        Draw: March 30, 2026 • Prize: 50% of ticket sales
+        Draw: March 30, 2026 • Prize: 75% of ticket sales
       </p>
       <p class="section-sub-p0c6" style="margin:0.5rem 0 0;">
         Must be 18+ and physically located in Alberta to participate. All raffles conducted under AGLC rules.

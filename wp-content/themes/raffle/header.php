@@ -4,8 +4,8 @@
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php
-    $meta_title = 'luckybegood 50/50 Raffle — Alberta charitable draw';
-    $meta_description = 'Licensed Alberta 50/50 raffle operated by Luckybegood Dog Rescue Foundation — 995 tickets at $10 each • Draw Mar 30, 2026 at 7:00 PM MT • Winner receives 50% of ticket sales.';
+    $meta_title = 'luckybegood licensed raffle — Alberta charitable draw';
+    $meta_description = 'Licensed Alberta raffle operated by Luckybegood Dog Rescue Foundation — 995 entries at $10 each • Draw Mar 30, 2026 at 7:00 PM MT • Winner receives 75% of ticket sales.';
     $meta_image = get_theme_file_uri('/assets/images/img.png');
   ?>
   <meta name="description" content="<?php echo esc_attr( $meta_description ); ?>">

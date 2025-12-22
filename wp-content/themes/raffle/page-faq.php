@@ -97,7 +97,7 @@ get_header();
     <div class="faq-shell">
       <p class="faq-kicker">Need answers?</p>
       <h1 class="faq-title">Frequently Asked Questions</h1>
-      <p class="faq-lead">Clear, licensed information about the Luckybegood Dog Rescue Foundation 50/50 raffle.</p>
+      <p class="faq-lead">Clear, licensed information about the Luckybegood Dog Rescue Foundation 75% payout raffle.</p>
       <div class="faq-pill-row">
         <span class="faq-pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662991</span>
         <span class="faq-pill"><i class="fa-solid fa-ticket"></i> 995 tickets • $10 each</span>
@@ -122,7 +122,7 @@ get_header();
       </div>
       <div class="faq-fact">
         <p class="label">Prize type</p>
-        <p class="value">50% of sales</p>
+        <p class="value">75% of sales</p>
         <p class="hint">Current licensed amount: $3,780</p>
       </div>
       <div class="faq-fact">
@@ -137,7 +137,7 @@ get_header();
     <div class="faq-shell faq-grid">
       <article class="faq-card">
         <h3>What do tickets cost and how many are printed?</h3>
-        <p>Each ticket is $10 and only 995 tickets are issued under AGLC Licence #662991. The prize equals 50% of total ticket sales.</p>
+        <p>Each ticket is $10 and only 995 tickets are issued under AGLC Licence #662991. The prize equals 75% of total ticket sales.</p>
       </article>
 
       <article class="faq-card">
@@ -152,7 +152,7 @@ get_header();
 
       <article class="faq-card">
         <h3>What does the winner receive?</h3>
-        <p>The winner takes 50% of total ticket sales. Current licensed draw amount: $3,780 (and grows with more sales).</p>
+        <p>The winner takes 75% of total ticket sales. Current licensed draw amount: $5,670 (and grows with more sales).</p>
       </article>
 
       <article class="faq-card">

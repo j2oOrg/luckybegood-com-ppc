@@ -11,17 +11,17 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
     <div class="container hero-grid hero-bento">
       <div class="hero-copy">
         <p class="eyebrow">Licensed charitable raffle</p>
-        <h1 class="hero-title">Luckybegood Dog Rescue Foundation 50/50 Raffle</h1>
-        <p class="hero-sub">Licensed charitable raffle. Winner receives 50% of total ticket sales for this draw.</p>
+        <h1 class="hero-title">Luckybegood Dog Rescue Foundation 75% Payout Raffle</h1>
+        <p class="hero-sub">Licensed charitable raffle. Winner receives 75% of total ticket sales for this draw.</p>
         <div class="hero-prize-stack">
-          <span class="hero-prize">$3,780 Current Licensed Prize Pool</span>
-          <span class="hero-prize-sub">(Prize amount equals 50% of ticket sales to date)</span>
+          <span class="hero-prize">$5,670 Current Licensed Prize Pool</span>
+          <span class="hero-prize-sub">(Prize amount equals 75% of ticket sales to date)</span>
         </div>
         <div class="hero-chips">
           <span class="pill accent"><i class="fa-solid fa-certificate"></i> AGLC Licence #662991</span>
           <span class="pill"><i class="fa-solid fa-ticket"></i> 995 entries total</span>
           <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 • 7:00 PM MT</span>
-          <span class="pill"><i class="fa-solid fa-bolt"></i> Winner takes 50% of ticket sales</span>
+          <span class="pill"><i class="fa-solid fa-bolt"></i> Winner takes 75% of ticket sales</span>
         </div>
         <div class="hero-cta">
           <a href="#" class="btn primary" data-signup-btn>Enter Licensed Draw</a>
@@ -67,7 +67,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
             <div class="progress-track">
               <div class="progress-fill" id="countdownProgress"></div>
             </div>
-            <p class="countdown-note">Prize: 50% of ticket sales • Current licensed draw amount $3,780 • AGLC Raffle Licence #662991</p>
+            <p class="countdown-note">Prize: 75% of ticket sales • Current licensed draw amount $5,670 • AGLC Raffle Licence #662991</p>
           </div>
         </div>
 
@@ -121,8 +121,8 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
       </article>
       <article class="fun-card">
         <p class="fun-label">Licensed prize pool</p>
-        <p class="fun-value">50% of sales</p>
-        <p class="fun-hint">Current amount: $3,780</p>
+        <p class="fun-value">75% of sales</p>
+        <p class="fun-hint">Current amount: $5,670</p>
       </article>
       <article class="fun-card">
         <p class="fun-label">Draw time</p>
@@ -136,14 +136,14 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
     <div class="container prize-grid">
       <article class="prize-card">
         <p class="section-eyebrow">Licensed prize pool</p>
-        <h2 class="section-title">Limited entries. One licensed prize pool (50% of ticket revenue).</h2>
-        <p class="section-sub">A licensed 50/50 draw with a clear, regulated prize pool.</p>
+        <h2 class="section-title">Limited entries. One licensed prize pool (75% of ticket revenue).</h2>
+        <p class="section-sub">A licensed draw with a clear, regulated prize pool.</p>
         <div class="prize-meta">
           <span class="pill accent"><i class="fa-solid fa-ticket"></i> $10 per entry</span>
           <span class="pill"><i class="fa-solid fa-layer-group"></i> 995 entries total</span>
           <span class="pill"><i class="fa-solid fa-calendar-day"></i> Draw: Mar 30, 2026 • 7:00 PM MT</span>
         </div>
-        <p class="pitch">One winner receives 50% of total ticket sales for this draw.</p>
+        <p class="pitch">One winner receives 75% of total ticket sales for this draw.</p>
         <div class="cta-stack">
           <a href="#" class="btn fun" data-signup-btn><i class="fa-solid fa-bolt"></i> Enter Licensed Draw</a>
           <span class="pill accent"><i class="fa-solid fa-clock"></i> Countdown is live</span>
@@ -155,7 +155,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <ul class="info-list">
           <li>Entry price: $10.00 each</li>
           <li>Total entries available: 995</li>
-          <li>Prize: 50% of total entry revenue</li>
+          <li>Prize: 75% of total entry revenue</li>
           <li>Draw date: March 30, 2026 at 7:00 PM MT</li>
           <li>Draw location: Fort Edmonton Park, Edmonton</li>
         </ul>
@@ -176,7 +176,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <div class="stat-box">
           <p class="label">Winner count</p>
           <p class="num">1</p>
-          <p class="hint">One licensed prize pool (50% of sales)</p>
+          <p class="hint">One licensed prize pool (75% of sales)</p>
         </div>
         <div class="stat-box">
           <p class="label">Draw date</p>
@@ -208,8 +208,8 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         </article>
         <article class="package-card">
           <div class="package-name">3. Prize payout</div>
-          <p class="package-note">One winner receives 50% of total ticket sales (licensed prize pool).</p>
-          <p class="package-note">Current licensed amount: $3,780 and grows with sales.</p>
+          <p class="package-note">One winner receives 75% of total ticket sales (licensed prize pool).</p>
+          <p class="package-note">Current licensed amount: $5,670 and grows with sales.</p>
         </article>
         <article class="package-card">
           <div class="package-name">4. Support dog rescue</div>
@@ -247,7 +247,7 @@ $hero_image = get_theme_file_uri('/assets/images/herobackground02.png');
         <div class="rg-card">
           <div class="rg-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h3>Licence &amp; limits</h3>
-          <p>Operated by Luckybegood Dog Rescue Foundation • AGLC Raffle Licence #662991 • 995 entries • $10 each • Draw: Mar 30, 2026 • Licensed prize pool: 50% of sales.</p>
+          <p>Operated by Luckybegood Dog Rescue Foundation • AGLC Raffle Licence #662991 • 995 entries • $10 each • Draw: Mar 30, 2026 • Licensed prize pool: 75% of sales.</p>
           <span class="rg-badge-pill"><i class="fa-solid fa-scale-balanced"></i> Posted odds: max 1 in 995</span>
         </div>
         <div class="rg-card">

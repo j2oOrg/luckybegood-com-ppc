@@ -86,7 +86,7 @@ get_header();
     <div class="rules-shell">
       <p class="rules-kicker">Official Rules</p>
       <h1 class="rules-title">Rules &amp; Regulations</h1>
-      <p class="rules-lead">These are the official terms for the Luckybegood Dog Rescue Foundation 50/50 raffle. Participation is restricted to individuals 18+ who are physically located in Alberta at the time of purchase.</p>
+      <p class="rules-lead">These are the official terms for the Luckybegood Dog Rescue Foundation 75% payout raffle. Participation is restricted to individuals 18+ who are physically located in Alberta at the time of purchase.</p>
       <div class="rules-pills">
         <span class="rules-pill accent"><i class="fa-solid fa-certificate"></i> AGLC Raffle Licence #662991</span>
         <span class="rules-pill"><i class="fa-solid fa-ticket"></i> 995 tickets • $10 each</span>
@@ -108,7 +108,7 @@ get_header();
         </div>
         <div class="rules-meta-card">
           <p class="label">Prize</p>
-          <p class="value">50% of sales</p>
+          <p class="value">75% of sales</p>
           <p class="hint">Current licensed amount: $3,780</p>
         </div>
         <div class="rules-meta-card">
@@ -144,7 +144,7 @@ get_header();
 
       <article class="rule-card">
         <h3>Prize payout</h3>
-        <p>One winner receives 50% of total ticket sales for this draw. The prize is not transferable and is awarded as stated.</p>
+        <p>One winner receives 75% of total ticket sales for this draw. The prize is not transferable and is awarded as stated.</p>
       </article>
 
       <article class="rule-card">
@@ -184,7 +184,7 @@ get_header();
         <li class="rules-step"><span class="dot"></span><p class="copy">Tickets sold at $10 each (995 total available).</p></li>
         <li class="rules-step"><span class="dot"></span><p class="copy">Eligibility verified (18+ and physically in Alberta at time of purchase).</p></li>
         <li class="rules-step"><span class="dot"></span><p class="copy">Draw conducted March 30, 2026 at 7:00 PM MT, Fort Edmonton Park.</p></li>
-        <li class="rules-step"><span class="dot"></span><p class="copy">One winner drawn; prize equals 50% of total ticket sales.</p></li>
+        <li class="rules-step"><span class="dot"></span><p class="copy">One winner drawn; prize equals 75% of total ticket sales.</p></li>
         <li class="rules-step"><span class="dot"></span><p class="copy">Winner notified within 5 business days; must respond within 30 days.</p></li>
       </ul>
     </div>
